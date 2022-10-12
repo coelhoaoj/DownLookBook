@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+.brand{
+    font-family: 'Bitter', serif;
+    color: #000000;
+    font-size: 32px;
+    font-style: italic;
+}
+
+
+.carrousel-container{
+    max-height: 500px;
+}
+
+.carousel-item, .carousel{
+    width: 600px;
+    max-height: 500px;
+}
+
+.carousel-item img {
+    object-fit: contain;
+    height:500px;
+    max-width:100%;
+    overflow: hidden;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.counter { 
+    display: flex;
+    border: 1px solid goldenrod;
+}
+
+.dashp{
+    margin: 0px 15px;
+}
+
+.counter p { 
+    font-size:40px; 
+    font-weight:bold; 
+    color: goldenrod; 
+    margin: 0px; 
+    text-align: center; 
+}
+
+.counter .dashtitle { 
+    font-size:16px; 
+    color:#000; 
+    font-weight: bold;
+    display:block; 
+}
+
+.btn-shop{
+    border: 1px solid goldenrod;
+    font-size: 24px;
+    padding: 10px 40px;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-shop:hover{
+    transition: 1s;
+    color: #fff;
+    background-color: goldenrod;
+}
+
+
+@media (max-width: 500px) {
+    .carrousel-container{
+        max-height: 500px;
+    }
+    
+    .carousel-item, .carousel{
+        max-width: 250px;
+        max-height: 500px;
+    }
+    
+    .carousel-item img {
+        object-fit: contain;
+        height:500px;
+        max-width:100%;
+        overflow: hidden;
+    }
+}
